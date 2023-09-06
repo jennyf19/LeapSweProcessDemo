@@ -1,9 +1,4 @@
-﻿namespace LeapSwePracticeApp
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
+﻿
             Console.Write("Welcome to the guessing game! I'm thinking of a number between 1 and 100. Can you guess what it is?");
             int numberToGuess = new Random().Next(1, 101);
             int guess = 0;
@@ -36,6 +31,3 @@
                 }
             }
             Console.ReadLine();
-        }
-    }
-}
