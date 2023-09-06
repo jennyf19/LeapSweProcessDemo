@@ -5,7 +5,7 @@
 
             while (guess != numberToGuess)
             {
-                Console.Write("Enter your guess: ");
+                Console.WriteLine("Enter your guess: ");
 
                 // Exception handling for non-integer input
                 try
